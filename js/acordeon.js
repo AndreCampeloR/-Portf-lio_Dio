@@ -7,6 +7,7 @@ acordeonTriggers.forEach((trigger) => {
 
         if (isOpen) {
             acordeon.classList.remove('open')
+            console.log("abriu")
         } else {
             acordeon.classList.add('open')
         }
